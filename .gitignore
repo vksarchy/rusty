@@ -1,0 +1,15 @@
+# Build output. Large, regenerable, and never committed.
+target/
+
+# direnv's cached dev-shell evaluation.
+.direnv/
+
+# rustlings' own progress state.
+.rustlings-state.txt
+
+# Upstream clones: regenerable, and the-rust-book carries its own .git.
+book-src/the-rust-book/
+
+# `rustlings init` creates its own git repo for your progress, so it is tracked
+# there rather than here. Commit inside it, not from the top level.
+exercises/rustlings/
